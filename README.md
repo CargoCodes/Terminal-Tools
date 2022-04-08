@@ -58,7 +58,7 @@ Typing "wbsearch youtube", youtube will be searched on your browser, but no long
     
 Type "wbsearch" only with no arguments to get help.
 
-#PreparePack
+# PreparePack
 
 Repository that prepares packages directories and files
 
