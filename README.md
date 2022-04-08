@@ -11,49 +11,81 @@ Before installing and using these tools and the relative commands, make sure tha
 
 # WbSearch
 
-Installation
-    
+Search anything on your main browser directly from terminal (both words and links).
+
+`Installation`:
+
     $ pip install wbsearch
-    
-Usage:
+
+`Usage`:
 
     $ wbsearch argument
-    
-  Replace argument with the words or the link you want to search. If you are searching multiple words, put "\" before each space, or wrap the around with double quotes.
 
-    $ wbsearch --set keyword argument
-    
-    $ wbsearch -s keyword argument
-    
-  The --set method, allows to create keywords for WbSearch. Replace keyword with your own keyword, and argument with the link you want to save. After this operation, by typing "wbsearch keyword", you will search the link associated with the keyword.
+Replace argument with your own research.
+In case you want to search multiple words, you may need to use "\" before each space,
+or use double quotes around, depending on your operating system. 
 
-# PreparePack
+`Set method`:
 
-Installation:
+    $ wbsearch --set keyword link
+
+    $ wbsearch -s keyword link
+
+Replace "keyword" with your own keyword, and "link" with your own link.
+This method allows to locally set constant keywords. \
+For example, typing:
+
+    $ wbsearch -s youtube https://www.youtube.com/ 
+
+Typing "wbsearch youtube", wbsearch will open the
+saved link referring to "youtube" keyword.
+
+`Remove method`:
+
+    $ wbsearch --remove keyword
+
+    $ wbsearch -r keyword
+
+Replace "keyword" with the keyword you want to remove from wbsearch user keywords.
+
+    $ wbsearch -r youtube
+
+Typing "wbsearch youtube", youtube will be searched on your browser, but no longer the link associated to the keyword.
+
+`Help`:
+
+    $ wbsearch
+    
+Type "wbsearch" only with no arguments to get help.
+
+#PreparePack
+
+Repository that prepares packages directories and files
+
+`Installation`:
 
     $ pip install preparepack
-    
-This library creates templates for repository/libraries building.
 
-Usage:
+`Usage`:
 
-    $ prepack -n projectName
-    
-Replace projectName with your own project name. 
-This command will create (inside the current folder), a directory called "projectName_package", inside of the which will be created: a setup.py file (with some template code), a directory named as your project name containing the __init__.py file and a blank python file called as your project name.
+    $ prepack packageName
 
-    $ buildpack
-    
-This command must be called only inside the directory containing setup.py. When called, it installs locally the module, and creates .tar.gz and .whl files.
-After calling it, you can try and use (locally) your repository.
+Replace packageName with the name of your package. It will create the package directory named aspackageName_package, the setup.py file, a subdirectory named packageName containing the __ init __.py file and the package file named as packageName.py .
 
+    $ buildpack 
+
+Using this command you build the needed files before uploading your repository, such as .tar.gz and .whl . When you use this command, you must be in the same directory where the setup.py file is located.
+
+    $ uploadpypi
+
+Calling this command, you start the procedure for uploading a package on Pypi. Make sure to be in the the directory which contains the dist folder. Make also sure to have a valid Pypi account, to remember the credentials and that your package has a valid name (not taken yet) and a valid version (not uploaded yet).
 # TermClock
 
-Installation:
+`Installation`:
 
     $ pip install termclock
     
-Usage:
+`Usage`:
 
     $ ctime
     
