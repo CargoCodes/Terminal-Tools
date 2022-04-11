@@ -1,6 +1,6 @@
 # Terminal-Tools
 
-An always growing set of terminal tools (command line applications).
+An always growing set of terminal tools of my creation (command line applications).
 
 List of the actual tools:
 - [WbSearch](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#wbsearch)
