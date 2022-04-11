@@ -62,7 +62,7 @@ Typing "wbsearch youtube", youtube will be searched on your browser, but no long
 Type "wbsearch" only with no arguments to get help.
 
 # PreparePack
-
+[Repository Link](https://www.github.com/CargoCodes/PreparePack)
 Repository that prepares packages directories and files
 
 `Installation`:
@@ -82,8 +82,9 @@ Using this command you build the needed files before uploading your repository, 
     $ uploadpypi
 
 Calling this command, you start the procedure for uploading a package on Pypi. Make sure to be in the the directory which contains the dist folder. Make also sure to have a valid Pypi account, to remember the credentials and that your package has a valid name (not taken yet) and a valid version (not uploaded yet).
-# TermClock
 
+# TermClock
+[Repository Link](https://www.github.com/CargoCodes/TermClock)
 `Installation`:
 
     $ pip install termclock
@@ -103,7 +104,7 @@ Shows current date, including the day of the week. Date format: DD/MM/YYYY
 Shows both current date and current time, with the running clock. Press Ctrl+C to stop it.
 
 # Winux
-
+[Repository Link](https://www.github.com/CargoCodes/winux)
 Integration of some Linux terminal commands for Windows Command Prompt.
 
 This CLA is in costant update with new command.
