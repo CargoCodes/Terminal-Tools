@@ -12,6 +12,8 @@ Before installing and using these tools and the relative commands, make sure tha
 
 # WbSearch
 
+[Repository Link](https://www.github.com/CargoCodes/WbSearch)
+
 Search anything on your main browser directly from terminal (both words and links).
 
 `Installation`:
