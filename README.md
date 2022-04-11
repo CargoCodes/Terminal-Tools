@@ -3,10 +3,10 @@
 An always growing set of terminal tools (command line applications).
 
 List of the actual tools:
-- WbSearch
-- PreparePack
-- TermClock
-- Winux
+- [WbSearch](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#wbsearch)
+- [PreparePack](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#preparepack)
+- [TermClock](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#termclock)
+- [Winux](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#winux)
 
 Before installing and using these tools and the relative commands, make sure that Python is in your PATH.
 
