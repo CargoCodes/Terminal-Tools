@@ -87,7 +87,9 @@ Calling this command, you start the procedure for uploading a package on Pypi. M
 
 # TermClock
 
-[Repository Link](https://www.github.com/CargoCodes/TermClock)
+
+
+[Repository Link](https://pypi.org/project/termclock/)
 
 `Installation`:
 
