@@ -73,7 +73,7 @@ Type this command to get help.
 
 Repository that prepares packages directories and files
 
-    Version: 1.3.0
+    Version: 1.4.0
 
 `Installation`:
 
@@ -92,6 +92,8 @@ Using this command you build the needed files before uploading your repository, 
     $ uploadpypi
 
 Calling this command, you start the procedure for uploading a package on Pypi. Make sure to be in the the directory which contains the dist folder. Make also sure to have a valid Pypi account, to remember the credentials and that your package has a valid name (not taken yet) and a valid version (not uploaded yet).
+
+All commands have "--help" option.
 
 # TermClock
 
