@@ -16,6 +16,8 @@ Before installing and using these tools and the relative commands, make sure tha
 
 Search anything on your main browser directly from terminal (both words and links).
 
+    Version: 2.1.3
+
 `Installation`:
 
     $ pip install wbsearch
@@ -34,8 +36,10 @@ or use double quotes around, depending on your operating system.
 
     $ wbsearch -s keyword link
 
-Replace "keyword" with your own keyword, and "link" with your own link.
-This method allows to locally set constant keywords. \
+Replace keyword with your own keyword, and link with your own link. 
+This method allows to locally set constant keywords.
+The same method allows to edit the content of the keyword, simply entering the keword and then the new associated link 
+
 For example, typing:
 
     $ wbsearch -s youtube https://www.youtube.com/ 
@@ -51,21 +55,25 @@ saved link referring to "youtube" keyword.
 
 Replace "keyword" with the keyword you want to remove from wbsearch user keywords.
 
+Example:
+
     $ wbsearch -r youtube
 
 Typing "wbsearch youtube", youtube will be searched on your browser, but no longer the link associated to the keyword.
 
 `Help`:
 
-    $ wbsearch
-    
-Type "wbsearch" only with no arguments to get help.
+    $ wbsearch --help
+
+Type this command to get help.
 
 # PreparePack
 
 [Repository Link](https://www.github.com/CargoCodes/PreparePack)
 
 Repository that prepares packages directories and files
+
+    Version: 1.3.0
 
 `Installation`:
 
@@ -87,9 +95,9 @@ Calling this command, you start the procedure for uploading a package on Pypi. M
 
 # TermClock
 
-
-
 [Repository Link](https://pypi.org/project/termclock/)
+
+    Version: 1.1.0
 
 `Installation`:
 
@@ -121,7 +129,7 @@ This CLA is in costant update with new command.
 which could become a serious problem. The code is ment to not work in non-Windows systems, but in Unix OSes it could 
 overwite and"hide" the commands it provides.`
 
-
+    Version: 1.1.3  
 
 `Installation`:
 
