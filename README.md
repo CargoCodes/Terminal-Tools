@@ -8,7 +8,7 @@ List of the actual tools:
 - [TermClock](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#termclock)
 - [Winux](https://github.com/CargoCodes/Terminal-Tools/blob/main/README.md#winux)
 
-Before installing and using these tools and the relative commands, make sure that Python is in your PATH.
+Before installing and using these tools and the relative commands, make sure Python to be in your PATH.
 
 # WbSearch
 
